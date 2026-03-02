@@ -17,7 +17,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "ripple-media-app.vercel.app",  # 👈 add your Vercel URL here after deploying frontend
+        "https://ripple-media-app.vercel.app",  # 👈 add your Vercel URL here after deploying frontend
     ],
     allow_credentials=True,
     allow_methods=["*"],
